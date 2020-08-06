@@ -1,0 +1,17 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "my first app node js",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "todisoa",
+  "license": "ISC"
+}

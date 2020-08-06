@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/style.css">
+  <title>Document</title>
+  
+</head>
+<body>
+  <%- include('partials/nav.ejs') -%>
+  <h1>CONTACT US on 544542187444</h1>
+  <p>THANKS FOR YOUR VISIT</p>
+  <form style="width: 300px" method="POST" action="/contact">
+    <div>
+      <label>
+        DEPARTEMET
+      </label>
+      <input name="departement" style="width: 100%;padding: 10px" type="text" value="<%= qs.departement %>"/>
+    </div>
+    <div>
+      <label>
+        NAME
+      </label>
+      <input  name="email" style="width: 100%;padding: 10px" type="text" value="<%= qs.name %>" />
+    </div>
+    <button type="submit">
+      VALIDER
+    </button>
+  </form>
+</body>
+</html>
